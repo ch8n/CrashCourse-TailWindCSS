@@ -1,10 +1,11 @@
-# TailWindCSS can help write css for rapid prototyping
+# Tail-Wind-Css for rapid prototyping
+No need for styles
 
 ## Vscode plugin
-* use tailwindCss intellisense for auto complete
+* tailwind intellisense for auto complete
 
 ## Enviorment setup
-* requires [nodejs](https://nodejs.org/en)
+* Requires [nodejs](https://nodejs.org/en)
 * npm package
   * [tailwindCSS](https://tailwindcss.com/docs/installation)
 
