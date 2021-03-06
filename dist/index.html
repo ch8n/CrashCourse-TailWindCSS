@@ -8,10 +8,10 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="h-screen">
+<body class="h-screen bg-gray-300 font-sans">
 
     <!-- header -->
-    <header class="bg">
+    <header>
 
         <!-- Hero Image -->
         <div class="h-full h-56 bg-red-400 overflow-hidden bg-red-400">
@@ -23,7 +23,7 @@
 
 
     <!-- main -->
-    <main class="bg-gray-300">
+    <main>
 
         <!-- feature -->
         <div class="h-58 overflow-hidden bg-teal-400">
@@ -32,7 +32,7 @@
 
 
         <!-- article list -->
-        <div>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
             <!-- article card -->
             <div class="rounded-xl shadow-md border-2 overflow-hidden m-4">
@@ -115,11 +115,27 @@
                 </div>
             </div>
 
+            <!-- article card -->
+            <div class="rounded-xl shadow-md border-2 overflow-hidden m-4">
+                <div class="bg-yellow-500 h-52 overflow-hidden">
+                    <img src="https://picsum.photos/id/1076/600/400" alt="">
+                </div>
+                <div class="px-4 py-2">
+                    <p class="text-sm mt-2">Category</p>
+                    <p class="text-xl mt-1">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-base mt-1 truncate">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Dolorem, repudiandae distinctio similique delectus quo, suscipit quia molestias numquam,
+                        iste
+                        perspiciatis debitis architecto dignissimos laborum aperiam ipsam impedit non quas laudantium!
+                    </p>
+                </div>
+            </div>
+
         </div>
 
 
         <!-- footer -->
-        <footer class="bg-gray-900 text-gray-200">
+        <footer class="bg-gray-900 text-gray-200 p-6">
             <div class="flex flex-col justify-center items-center">
                 <p class="capitalize">© 2021 Chetan Gupta</p>
                 <p>Social</p>
