@@ -4,261 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TailWind-Tutorial</title>
-    <link rel="stylesheet" href="output.css">
+    <title>tailwind-crash-courese</title>
+    <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-800 space-y-6 p-5 h-screen">
+<body class="h-screen">
 
-    <!-- NAVBAR -->
-    <div class="grid outline-white bg-blue-500 p-5 h-3/3 grid-cols-3 gap-6">
-        <div class="inline-block bg-red-200">Menu</div>
-        <div class="inline-block bg-red-200">BranName</div>
-        <div class="inline-block bg-red-200">settings</div>
-    </div>
-
-
-    <!-- BODY -->
-    <div class="bg-gray-400 space-y-6 py-5 h-screen">
-
-        <!-- HERO -->
-        <div class="block outline-white bg-blue-500 p-5 h-1/3">Hero</div>
-
-
-
-        <!-- ABOUT-ME -->
-        <div class="block outline-white bg-red-500 p-5 h-2/6">
-
-            <!-- content wrapper -->
-            <div class="flex h-5/6 outline-white bg-pink-100">
-
-                <!-- avatarImage and Name -->
-                <div class="w-2/6 h-full bg-gray-500">
-
-                    <!-- TODO add image and name -->
-                </div>
-
-                <p class="w-4/6 h-full ml-4 py-2 text-left ">
-                    Hello there! I go in community with the name Ch8n. I'm a mobile technology enthusiast! love Android
-                    #kotlinAlltheWay, want to explore all opportunities around it! CodingMantra: #cleanCoder #TDD #SOLID
-                </p>
-
-
-            </div>
-
-            <div class="block my-4 bg-green-100">
-                links for source tree
-            </div>
-
+    <!-- header -->
+    <header class="h-1/4">
+        <div>
+            Hero Image
         </div>
 
 
-
-        <!-- FEATURED -->
-        <div class="block outline-white bg-red-500 p-5 h-2/6">
-
-            <p>
-                horizontal list of feature
-            </p>
+        <div>
+            feature
+        </div>
+    </header>
 
 
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
+    <!-- main -->
+    <main class="h-4/6 bg-gray-300 p-4">
 
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
 
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
+        <!-- article card -->
+        <div class="rounded-xl shadow-md border-2 overflow-hidden">
+            <div class="bg-yellow-500 h-52 overflow-hidden">
+                <img src="https://picsum.photos/id/684/600/400">
             </div>
-
+            <div class="px-4 py-2">
+                <p class="text-sm mt-2">Category</p>
+                <p class="text-xl mt-1">Lorem ipsum dolor sit amet.</p>
+                <p class="text-base mt-1 truncate">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Dolorem, repudiandae distinctio similique delectus quo, suscipit quia molestias numquam, iste
+                    perspiciatis debitis architecto dignissimos laborum aperiam ipsam impedit non quas laudantium!</p>
+            </div>
         </div>
 
-        <!-- ANDROID-BITES ROW -->
-        <div class="block outline-white bg-green-500 p-5 h-2/6">
 
-            <p>
-                horizontal list of AndroidBites
-            </p>
+    </main>
 
 
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
 
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
-
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
-            </div>
-
+    <!-- footer -->
+    <footer class="bg-gray-900 text-gray-200 h-1/6">
+        <div class="flex flex-col justify-center items-center">
+            <p class="capitalize">© 2021 Chetan Gupta</p>
+            <p>Social</p>
         </div>
 
-        <!-- BIG-BRAIN-KOTLIN ROW -->
-        <div class="block outline-white bg-pink-500 p-5 h-2/6">
-
-            <p>
-                horizontal list of BIG-BRAIN-KOTLIN
-            </p>
-
-
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
-
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
-
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- KOTLIN-PATTERNS ROW -->
-        <div class="block outline-white bg-pink-500 p-5 h-2/6">
-
-            <p>
-                horizontal list of KOTLIN-PATTERNS
-            </p>
-
-
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
-
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
-
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- LATEST ARTICLE GRID -->
-        <div class="grid grid-cols-2 gap-4 outline-white bg-yellow-500 p-5 h-5/6">
-
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
-
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
-
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
-            </div>
-
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
-
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
-
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
-            </div>
-
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
-
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
-
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
-            </div>
-
-            <!-- feature card -->
-            <div class="block outline-white bg-gray-400 h-5/6">
-
-                <div class="block bg-blue-200 h-3/6">
-                    Poster Image
-                </div>
-
-                <div class="flex bg-blue-400 h-1/6">
-                    <p>Date</p>
-                    <p>| read time </p>
-                    <p>| views </p>
-                </div>
-
-                <div class="block bg-blue-600 h-2/6">
-                    Poster Description
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- FOOTER -->
-        <div class="block outline-white bg-yellow-500 p-5 h-1/4">
-            <p>AndroidBites © 2020</p>
-            <p>Developed by ChetanGupta</p>
-            <p>Social media list</p>
-        </div>
-    </div>
-
+    </footer>
 
 </body>
 
